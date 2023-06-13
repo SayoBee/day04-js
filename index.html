@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head" style="text-align: center;"></h1>
+    <p id="ex"></p>
+    <h2 id="topic" style="text-align: center;"></h2>
+    <p id="list"></p>
+    <p id="first"></p>
+    <p id="first1"></p>
+    <p id="first2"></p>
+    <p id="result1"></p>
+    <p id="first3"></p>
+    <p id="second"></p>
+    <p id="second1"></p>
+    <p id="result2"></p>
+    <p id="third"></p>
+    <p id="third2"></p>
+    <p id="result3"></p>
+    <p id="fouth"></p>
+    <p id="fouth2"></p>
+    <p id="result4"></p>
+    <p id="fifth"></p>
+    <p id="fifth2"></p>
+    <p id="result5"></p>
+    <p id="sixth"></p>
+    <p id="sixth2"></p>
+    <p id="result6"></p>
+    <h2 style="text-align: center;" id="co"></h2>
+    <p id="greater"></p>
+    <p id="g1"></p>
+    <p id="gr"></p>
+    <p id="lessthan"></p>
+    <p id="lg1"></p>
+    <p id="lr"></p>
+    <p id="ee"></p>
+    <p id="ee1"></p>
+    <p id="eer"></p>
+    <p id="eee"></p>
+    <p id="eee1"></p>
+    <p id="eeer"></p>
+    <p id="gte"></p>
+    <p id="gte1"></p>
+    <p id="gter"></p>
+    <p id="lte"></p>
+    <p id="lte1"></p>
+    <p id="lter"></p>
+    <p id="ne"></p>
+    <p id="ne1"></p>
+    <p id="ner"></p>
+    <p id="nee"></p>
+    <p id="nee1"></p>
+    <p id="neer"></p>
+    <h2 id="LO" style="text-align: center;"></h2>
+    <p id="lod"></p>
+    <p id="lo2"></p>
+    <p id="loe1"></p>
+    <p id="loe2"></p>
+    <p id="loe3"></p>
+    <h2 id="SO" style="text-align: center;"></h2>
+    <p id="so2"></p>
+    <p id="soe1"></p>
+    <p id="soe11"></p>
+    <p id="soe2"></p>
+    <p id="soe22"></p>
+    <h2 id="AO" style="text-align: center;"></h2>
+    <p id="aoe1"></p>
+    <p id="aoe11"></p>
+    <p id="aoe2"></p>
+    <p id="aoe22"></p>
+    <p id="aoe3"></p>
+    <p id="aoe33"></p>
+    <p id="aoe4"></p>
+    <p id="aoe44"></p>
+    <p id="aoe5"></p>
+    <p id="aoe55"></p>
+    <p id="aoe6"></p>
+    <p id="aoe66"></p>
+    <p id="aoe7"></p>
+    <p id="aoe77"></p>
+    
+    
+    <script>
+        document.getElementById('head').innerHTML=' DAY 04 MY EXPERINCE IN OPERATORS'
+        document.getElementById('ex').innerHTML=' My Experience in Operator under Javascript is that have learnt how to assign values thought the use of assignment operator, compare values throug the use of comparison Operator or string Operator, perfoming arithmetic calculations throug the use of Arithmetic Operator and logic operation through the use of logic operators'
+        document.getElementById("topic").innerHTML='Arithetic Operators'
+        document.getElementById('list').innerHTML='There are six type of arithetic Operators'
+        document.getElementById('first').innerHTML='1- <b>Plus (+)</b>: This is use for adding values togerther. <br>Example'
+        document.getElementById('first1').innerHTML= 'let a=5;'
+        document.getElementById('first2').innerHTML='let b=7; <br> C=a+b; '
+        let a=5;
+        let b=7;
+        let c=a+b;
+        document.getElementById('result1').innerHTML='C='+ c
+        document.getElementById('second').innerHTML='2- <b>Subtraction (-)</b>: This is use for subtracting values. <br>Example'
+        document.getElementById('second1').innerHTML='let d=20;    <br> let e=10; <br> h=d-e;'
+        let d=20;
+        let e=10;
+        let h=d-e
+        document.getElementById('result2').innerHTML='h=' + h
+        document.getElementById('third').innerHTML='3- <b>Mutiplication (*)</b>: This is use for mutipling values togerther. <br>Example '
+        document.getElementById('third2').innerHTML='let h=44; <br>let i=30;<br> k=i*j; '
+        let i=44;
+        let j=30;
+        let k=i*j
+        document.getElementById('result3').innerHTML='k=' + k
+        document.getElementById('fouth').innerHTML='4- <b>Division (/)</b>: this isb use for dividing two values. <br>Ex'
+        document.getElementById('fouth2').innerHTML='let l=72; <br>let m=2; <br>n= l/m; '
+        let l=72;
+        let m=2;
+        let n=l/m;
+        document.getElementById('result4').innerHTML='n=' + n
+        document.getElementById('fifth').innerHTML='5- <b>Modulus (%)</b>: This is also known as <b>Remainder</b>, this is used for fining the remainder after dividing one number by another.<br>Example'
+        document.getElementById('fifth2').innerHTML='let o=10; <br>let p=3; <br> q= o % p; '
+        let o=10;
+        let p=3;
+        let q=o % p
+        document.getElementById('result5').innerHTML='q=' + q
+        document.getElementById('sixth').innerHTML='<b>Exponentiation (**)</b>: This is used to raise a number to the power o another number. '
+        document.getElementById('sixth2').innerHTML='let r=3; <br>let s=3; <br>let t=r**s; '
+        let r=3;
+        let s=3;
+        let t=r**s;
+        document.getElementById('result6').innerHTML='t =' + t
+        document.getElementById('co').innerHTML='<b> Comparism Operators</b>'
+        document.getElementById('greater').innerHTML='1- <b>Greater than (>)</b> : It is use fo checking if the oprand is greate than th right oprand and retuns true it is,and false otherwise.<br>Examples '
+        document.getElementById('g1').innerHTML=('let u=5; <br>let v=2; <br> let w=u>v;')
+        let u=5;
+        let v=2;
+        let w= u>v;
+        document.getElementById('gr').innerHTML=('w=') +w
+        document.getElementById('lessthan').innerHTML='2- <b>Less Than</b>: The less than operator checks if the left oprand is less than the right operand and returns tru if it is, and false otherwise.<br> Example'
+        document.getElementById('lg1').innerHTML='let x=76; <br>let y=54; <br>let z=x<y; '
+        let x=76;
+        let y=54;
+        let z=x<y;
+        document.getElementById('lr').innerHTML=('z=') +z
+        document.getElementById('ee').innerHTML='3- <b>==</b>: The Equality operator compares two valuse for equality, ignoring the data types,it returns true if the values are equal and false otherwise.<br> Example'
+        document.getElementById('ee1').innerHTML='let ab=8; <br>let cd=8; <br>let ef=ab ==cd; '
+        let ab=8;
+        let cd=8;
+        let ef=ab==cd;
+        document.getElementById('eer').innerHTML=('ef=') +ef
+        document.getElementById('eee').innerHTML='4- <b>===</b>: it is used for comparing both the values and data types of the oprands,It returns true is both the values and types are the and false otherwise.<br> Example'
+        document.getElementById('eee1').innerHTML='let gh=8; <br>let ij="8"; <br>let kl=gh ===ij; '
+        let gh=8;
+        let ij='8';
+        let kl= gh===ij;
+        document.getElementById('eeer').innerHTML=('kl=') +kl
+        document.getElementById('gte').innerHTML='5- <b>>=</b>: It is used for checking if the left operand is greater than or equal to the right operand,it returns true if its, and false otherwise.<br> Example'
+        document.getElementById('gte1').innerHTML='let mn=45; <br>let op=38; <br>let qr=mn>=op; '
+        let mn=45;
+        let op=38;
+        let qr= mn>=op;
+        document.getElementById('gter').innerHTML=('qr=') +qr
+        document.getElementById('lte').innerHTML='6- <b><=</b>: It is used for checking if the left operand is lessthan or equal to the right operand,it returns true if its, and false otherwise.<br> Example'
+        document.getElementById('lte1').innerHTML='let st=45; <br>let uv=38; <br>let wx=st<=uv; '
+        let st=45;
+        let uv=38;
+        let wx= st<=uv;
+        document.getElementById('lter').innerHTML=('wx=') +wx
+        document.getElementById('ne').innerHTML='7- <b>!=</b>: it helps to check if two values are not epual and returns true if they are different,and false if the are equal.<br> Example'
+        document.getElementById('ne1').innerHTML='let yz=26; <br>let ac=26; <br>let da=yz!=ac; '
+        let yz=26;
+        let ac=26;
+        let da= yz!=ac;
+        document.getElementById('ner').innerHTML=('da=') +da
+        document.getElementById('nee').innerHTML='8- <b>!==</b>: it helps to check if two values are not epual and having diffent data type,it returns true if the value or data type are different,and false otherwise.<br> Example'
+        document.getElementById('nee1').innerHTML='let ba=26; <br>let ca="26"; <br>let ad=ba!==ac; '
+        let ba=26;
+        let ca="26";
+        let ad= ba!==ca;
+        document.getElementById('neer').innerHTML=('ab=') +ad
+        document.getElementById('LO').innerHTML=('Logical Operators')
+        document.getElementById('lod').innerHTML=('Logical Operators are used on boolean values(true or false)or expressions that evaluate to boolean values')
+        document.getElementById('lo2').innerHTML=('There are three type of Logical Operators')
+        document.getElementById('loe1').innerHTML=('1- <b>AND Operator(&&):</b> The AND operators returns true if both operands are true only.<br>Example <br>3>7 && 6<15 <br>//output:false')
+        document.getElementById('loe2').innerHTML=('1- <b>OR Operator(||):</b> The OR operators returns true if either of the operands is true otherwise, it returns false.<br>Example <br>17>7 || 6>15 <br>//output:true')
+        document.getElementById('loe3').innerHTML=('1- <b>NOT Operator(!):</b> The NOT operators tha works in opposite direction, if the operands is true the NOT operators is false and otherwise, it returns true.<br>Example <br>15>5 ! 10<15 <br>//output:false')
+        document.getElementById('SO').innerHTML=('String Operators')
+        document.getElementById('so2').innerHTML=('There are two type of String Operators')
+        document.getElementById('soe1').innerHTML=('1- <b>Concatenation Operator("+"):</b> Concatenation Operators are used to join or add two or more strings togerther.<br>Example <br>let firstName = "Olajire" <br> let lastName = "Sayo"<br> let name = firstName + lastName')
+        let firstName = "Olajire" 
+        let lastName = "Sayo"
+        let name = firstName +' '+ lastName
+        document.getElementById('soe11').innerHTML=('name= ')+name
+        document.getElementById('soe2').innerHTML=('1- <b>Concatenation Assingment("+="):</b> Concatenation Assingment is used for joining or combining element to the assign element.<br>Example <br>let ae = 20; <br> ae += 45;')
+        let ae = 20; 
+        ae += 45;
+        document.getElementById('soe22').innerHTML=('ae= ') +ae
+        document.getElementById('AO').innerHTML=('Assingment Operators')
+        document.getElementById('aoe1').innerHTML=('1- <b>Assingment Operator("="):</b> <br>let af = 20; ')
+        let af = 20; 
+        document.getElementById('aoe11').innerHTML=('af= ') +af
+        document.getElementById('aoe2').innerHTML=('2- <b>Assingment Addition("+="):</b><br>let ag = 20; <br> ag += 45;')
+        let ag = 20; 
+        ag += 45;
+        document.getElementById('aoe22').innerHTML=('ag= ') +ag
+        document.getElementById('aoe3').innerHTML=('3- <b>Assingment Substraction("-="):</b><br>let ah = 73; <br> ah += 25 <br> ah -=5;')
+        let ah = 73; 
+        ah -= 25;
+        ah -=5;
+        document.getElementById('aoe33').innerHTML=('ah= ') +ah
+        document.getElementById('aoe4').innerHTML=('4- <b>Assingment Mutiplication("*="):</b><br>let ai = 12; <br> ai *=23  <br> ai *=78;')
+        let ai = 12; 
+        ai *= 23;
+        ah *=78;
+        document.getElementById('aoe44').innerHTML=('ai= ') +ai
+        document.getElementById('aoe5').innerHTML=('5- <b>Assingment Division("/="):</b><br>let aj = 567; <br> aj *=12  ')
+        let aj = 576; 
+        aj /= 12;
+        document.getElementById('aoe55').innerHTML=('aj= ') +aj
+        document.getElementById('aoe6').innerHTML=('6- <b>Assingment Modulus("%="):</b><br>let ak = 300; <br> ak %=12 <br> ak %=3')
+        let ak = 300; 
+        ak %= 12;
+        ak %=3;
+        document.getElementById('aoe66').innerHTML=('ak= ') +ak
+        document.getElementById('aoe7').innerHTML=('6- <b>Assingment Exponentiation ("**="):</b><br>let al = 25; <br> al **=7')
+        let al = 25; 
+        al **= 7;
+        document.getElementById('aoe77').innerHTML=('al= ') +al
+      
+</script>
+</body>
+</html>
